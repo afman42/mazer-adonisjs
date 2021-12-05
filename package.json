@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "node ace serve --watch",
-    "build": "node ace build --production && cp .env build/.env && node build/server.js",
+    "build": "node ace build --production && cp ../.env ./build/.env && node build/server.js",
     "start": "node server.js"
   },
   "devDependencies": {
